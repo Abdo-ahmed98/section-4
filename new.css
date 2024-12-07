@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(./image/4c8c7d356b6707767ba954b7d090903ec5bc10e4_high.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+   
+} 
+@media (max-width:900px){
+    .main{
+        height: 80vh;
+    }
+}
+@media (max-width:500px){
+    .main{
+        height: 50vh;
+    }
+
+}
+.container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+   background-color: rgba(0, 0, 0, 0.5);
+   
+}
+.container i{
+  
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+    display: none;
+    cursor: pointer;
+}
+
+  
+
+
+
+
+.main  ul  {
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+   align-items: center;
+} 
+@media (max-width:500px){
+    .main ul {
+        display: none;
+    }
+    .container  i {
+        display: block;
+    }
+   
+    
+        
+
+}
+
+.main ul li  {
+    text-decoration: none;
+    margin:10px 5px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    transition:  0.3s;
+}
+.main  ul li:hover{
+    background-color: blue;
+    border-radius: 10px;
+  
+}
+.main ul li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.cont {
+    text-align: center;
+    margin-top: 10px;
+}
+.cont img {
+    width: 50%;
+
+}
+.cont h1{
+    margin-top: 10px;
+
+}
+.cont button {
+   margin: 0px 5px;
+    font-size: 25px;
+   padding: 5px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.cont .bt {
+    background-color: aqua;
+    padding: 5px 20px;
+
+
+}
+.cont .btt {
+    background-color: beige;
+    padding: 5px 20px;
+
+}
+
+.cont button:hover{
+    transform: scale(1.2);
+
+}
+.info {
+    
+    background-image:url(./image/hhh.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info .lay{
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.info h2 {
+    width: 30%;
+    border:4px solid black ;
+    border-top: transparent;
+    text-align: center;
+    border-radius:20px ;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.info  .conta .ggg {
+    width: 20%;
+}
+.info .lay .conta  {
+    display: flex;
+   
+}
+.info .lay .conta .ggg{
+    text-align: center;
+    width: 50%;
+}
+.info .lay .conta .cards {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.info .lay .conta .cards .card {
+    display: flex;
+    width: 25%;
+}
+.miss {
+   
+    background-image: url(./image/hhh.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.miss .lay {
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+.miss .lay h2 {
+    margin:  auto;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 20px;
+    border-top: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}.miss .image {
+    width: 50%;
+    text-align: center;
+ 
+}
+.miss .image img {
+    width: 90%;
+   margin-top: 50px;
+    
+}
+
+.miss .lay .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.miss .lay .content .image,
+.miss .lay .content .missi {
+    width: 50%;
+}
+ @media (max-width:500px){
+    .miss .lay .content .image,
+.miss .lay .content .missi {
+    width: 100%;
+}
+.miss .lay .content .missi .card {
+    margin-top: 15px;
+    padding-left:15px;
+}
+
+ }
+.miss .lay .content .missi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.miss .lay .content .missi .card {
+    width: 45%;   
+}
+
